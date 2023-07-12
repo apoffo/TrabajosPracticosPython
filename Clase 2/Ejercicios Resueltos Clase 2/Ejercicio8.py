@@ -1,0 +1,10 @@
+print("A ver cómo estamos de rellenitos o no...")
+print("Te voy a decir en términos científicos: IMC,\"Ingeris Mucha Comida\"")
+print("Naaa, es el Indice de Masa Corporal jaja, decime")
+peso= float(input("cuánto pesas?: "))
+medis= float(input("y cuánto medis? tíramelo en metros: "))
+print("Calculando...")
+imc = peso / medis ** 2
+imc = round(imc, 2)
+print(f"Bue... mirá... tu IMC es de {imc}, no sé... fijate qué haces...")
+print("Te recomiendo que vayas a una Nutricionsta y hagas un poco de ejercico")
